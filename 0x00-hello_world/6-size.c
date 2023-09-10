@@ -8,7 +8,7 @@ int main(void)
 {
 	char a;
 	int b;
-	printf("Size of a char: %lu byte(s)\n", sizeof(a);
-	printf("Size of a int: %lu byte(s)\n", sizeof(b);
+	printf("Size of a char: %lu byte(s)\n", sizeof(char);
+	printf("Size of a int: %lu byte(s)\n", sizeof(int);
 	return (0);
 }
