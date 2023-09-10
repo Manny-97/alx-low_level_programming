@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char "Hi";
-	int 4;
-	printf("Size of a char: %lu byte(s)\n", sizeof("Hi");
-	printf("Size of a char: %lu byte(s)\n", sizeof(4);
+	char a;
+	int b;
+	printf("Size of a char: %lu byte(s)\n", sizeof(a);
+	printf("Size of a int: %lu byte(s)\n", sizeof(b);
 	return (0);
 }
