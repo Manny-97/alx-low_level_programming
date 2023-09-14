@@ -1,13 +1,12 @@
-#include<stdio.h>
+#include "main.h"
+
 /**
- * main - Entry point
+ * main - check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	char letter="_putchar";
-
-	printf(letter);
+	_putchar("_putchar\n");
 	return (0);
 }
