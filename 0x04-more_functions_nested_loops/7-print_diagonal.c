@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- *print_diagonal - print \
+ *print_diagonal - print \ diagonally
  *@n: number of times
  *Return: void
  */
+
 void print_diagonal(int n)
 {
 	int i, j;
@@ -19,4 +20,5 @@ void print_diagonal(int n)
 		_putchar('\\');
 		_putchar('\n');
 	}
+
 }
