@@ -23,5 +23,7 @@ char *cap_string(char *c)
 				for (j = 0; 
 			}
 		}
+		i++;
 	}
+	return (s);
 }
