@@ -20,7 +20,11 @@ char *cap_string(char *c)
 			}
 			else
 			{
-				for (j = 0; 
+				for (j = 0; j <= 12; j++)
+				{
+					if (a[j] == *(s + i - 1))
+						*(s + i) -= 'a' - 'A';
+				}
 			}
 		}
 		i++;
