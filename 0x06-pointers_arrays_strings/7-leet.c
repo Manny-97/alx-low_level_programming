@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *leer - encodes a string into 1337
+ *leet - encodes a string into 1337
  *@c: character parameter
  *Return: char
  *
